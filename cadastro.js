@@ -14,7 +14,7 @@ botao.addEventListener("click", function(){
     if (gmail.value === "" && senha.value === "") { // Só vai salvar os valores se os campos não estiverem vazios
 
         gmail.placeholder = "Campo Vazio !"; // Muldar o placeholder
-        senha.placeholder = "Campo Vazio !";
+        senha.placeholder = "Campo Vazio !"; //aq
 
     } else {
         console.log(gmail.value)
